@@ -15,13 +15,18 @@
 </head>
 
 <body>
-    <header>
-        <div class="container mt-5">
-            <h1 class="text-center mb-4">Departures</h1>
+    <header class="py-3 ps-3">
+        <div class="logo">
+            <img src="{{ Vite::asset('resources/img/logo.svg') }}" alt="logo">
         </div>
     </header>
-    <main>
+    <main class="py-3">
         <div class="container">
+            <div class="d-flex justify-content-center pt-3 pb-4">
+                <div class="departures-title">
+                    <img src="{{ Vite::asset('resources/img/departures.png') }}" alt="departures">
+                </div>
+            </div>
             <ul>
                 @foreach ($trains as $train)
                     <li class="train-card">

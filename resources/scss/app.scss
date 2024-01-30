@@ -4,12 +4,35 @@ ul {
   list-style: none;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background-color: #ce2b37;
+  color: #FFFFFF;
+}
+
+header {
+  background-color: #FFFFFF;
+}
+
+.logo {
+  width: 200px;
+}
+
+.departures-title {
+  width: 250px;
+}
+
 .train-card {
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
   background-color: #f9f9f9;
+  color: #000000;
 }
 .train-header {
   font-size: 1.5em;
