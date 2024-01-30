@@ -9,5 +9,8 @@ class Train extends Model
 {
     use HasFactory;
 
-    protected $dates = ['departure_time'];
+    protected $casts = [
+        'departure_time' => 'datetime',
+        'arrival_time' => 'datetime',
+    ];
 }
